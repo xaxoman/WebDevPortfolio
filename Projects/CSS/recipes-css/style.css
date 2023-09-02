@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap'); /* Fonts for the headers*/
+
+body {
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    
+
+}
+
+#index h1{
+
+    text-align: center;
+}
+
+#index img {
+
+    display: block;
+    margin: auto;
+    width: 30rem;
+
+}
+
+
+h1,h2 {
+
+    font-family: 'Abril Fatface', cursive;
+    font-weight: normal;
+
+}
+
+a {
+
+   text-decoration: none;
+   color: rgb(0, 145, 108);
+   font-weight: bold;
+   text-align: center;
+   display: block;
+}
+
+a:hover {
+
+    text-decoration: underline;
+}
+
+ol {
+
+  line-height: 1.5;
+  max-width: 80rem;
+
+}
+
+.recipes {
+
+    margin: 0 auto;
+    max-width: 80rem;
+}
