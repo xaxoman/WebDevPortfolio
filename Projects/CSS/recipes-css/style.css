@@ -55,3 +55,11 @@ ol {
     margin: 0 auto;
     max-width: 80rem;
 }
+
+.recipes img {
+
+    max-width: 100%;
+    width: 35rem;
+    border: 30px black;
+
+}
