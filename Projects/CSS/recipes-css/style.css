@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap'); /* Fonts for the headers*/
 
+
+
 body {
 
     font-family:Georgia, 'Times New Roman', Times, serif;
-    
-    
+    margin: 0;
+   
+
+}
+
+#index {
+
+    background-image: url("https://www.quotidiano.net/image-service/version/c:N2RiYjNlYzEtYzIzNi00:ODI5Zjg5/i-dati-del-turismo-in-albania.webp?f=3%3A2&q=1&w=1560");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 45rem;
 
 }
 
@@ -19,6 +31,7 @@ body {
     margin: auto;
     width: 30rem;
 
+
 }
 
 
@@ -29,19 +42,9 @@ h1,h2 {
 
 }
 
-a {
 
-   text-decoration: none;
-   color: rgb(0, 145, 108);
-   font-weight: bold;
-   text-align: center;
-   display: block;
-}
 
-a:hover {
 
-    text-decoration: underline;
-}
 
 ol {
 
@@ -60,4 +63,16 @@ ol {
 
     max-width: 100%;
     width: 35rem;
+}
+
+.italia  {
+
+    height: 5px; /* Adjust the height as needed */
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, green 33.33%, white 33.33%, white 66.66%, red 66.66%);
+    box-shadow: 0px 5px 15px rgb(41, 41, 41);
+    
+
 }
