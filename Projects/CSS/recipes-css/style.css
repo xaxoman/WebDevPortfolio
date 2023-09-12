@@ -6,7 +6,7 @@ body {
 
     font-family:Georgia, 'Times New Roman', Times, serif;
     margin: 0;
-   
+    background-color: blanchedalmond;
 
 }
 
@@ -20,9 +20,11 @@ body {
 
 }
 
+
 #index h1{
 
     text-align: center;
+    margin: 0;
 }
 
 #index img {
@@ -41,9 +43,6 @@ h1,h2 {
     font-weight: normal;
 
 }
-
-
-
 
 
 ol {
@@ -67,7 +66,7 @@ ol {
 
 .italia  {
 
-    height: 5px; /* Adjust the height as needed */
+    height: 5px; 
     border: none;
     margin: 0;
     padding: 0;
@@ -76,3 +75,33 @@ ol {
     
 
 }
+
+.menu {
+
+    max-width: 70rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.menu a {
+
+    text-decoration: none; 
+    color: rgb(49, 49, 49);
+    font-weight: bold;
+    font-size: 1.5em;
+    display: block;
+    padding-top: 1.5rem;
+    border-bottom: 2px dotted gray ;
+    padding-bottom: 0.5rem;
+}
+
+.menu ul li {
+
+    font-style: italic;
+}
+
+.menu p {
+
+    float: right;
+}
+

@@ -1,27 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
-    <title>ALl'italiana</title>
-</head>
-<body>
-<div id="index">
-    <h1>Odin Recipes</h1>
-    <img src="data:image/jpeg;base64,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" alt="">
-    <br/>
-</div>
-    <hr class="italia">
-    <hr class="italia">
-    <hr class="italia">
-<div class="menu">
-    <a href="recipes/burek.html">Burek</a>
-    <a href="recipes/lasagna.html">Lasagna</a>
-    <a href="recipes/parmigiana.html">Parmigiana</a>
-    <a href="recipes/burek.html">Burek</a>
-    <a href="recipes/lasagna.html">Lasagna</a>
-    <a href="recipes/parmigiana.html">Parmigiana</a>
-</div>
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css"/>
+      <title>ALl'italiana</title>
+   </head>
+   <body>
+      <div id="index">
+         <h1>Odin Recipes</h1>
+         <img src="img/Italo-Albanian_flag.png">
+         <br/>
+      </div>
+      <hr class="italia">
+      <hr class="italia">
+      <hr class="italia">
+      <section class="menu">
+         <p>~ 1h to prepare</p>
+         <a href="recipes/burek.html">Burek</a>
+         <ul>
+            <li>his burek recipe is from Albania. My mom made this for me while I was growing up — my whole family always looked forward to it. Serve with Balkan-style yogurt for authenticity.</li>
+         </ul>
+         <p>~ 2h to prepare</p>
+         <a href="recipes/lasagna.html">Lasagna</a>
+         <ul>
+            <li>This is my mom's special homemade lasagna recipe with a meaty, made-from-scratch tomato sauce and a deliciously cheesy filling.
+               A more traditional homemade lasagna filling would be made with ricotta but my mom's recipe calls for a blend of small-curd cottage cheese
+               and Parmesan. I have found none better anywhere. Serve with a leafy green salad and crusty garlic bread.
+            </li>
+         </ul>
+         <p>~ 3h to prepare</p>
+         <a href="recipes/parmigiana.html">Parmigiana</a>
+         <ul>
+            <li>Eggplant parmigiana or eggplant Parmesan is one of the most popular and iconic vegetarian
+               Italian dishes and this recipe is straight from Italy. Use ripe eggplant without seeds and salt them for 1 hour to remove the bitterness.
+            </li>
+         </ul>
+         <p>~ 1h 30min to prepare</p>
+         <a href="recipes/burek.html">Burek</a>
+         <ul>
+            <li>his burek recipe is from Albania. My mom made this for me while I was growing up — my whole family always looked forward to it. Serve with Balkan-style yogurt for authenticity.</li>
+         </ul>
+         <p>~ 2h to prepare</p>
+         <a href="recipes/lasagna.html">Lasagna</a>
+         <ul>
+            <li>This is my mom's special homemade lasagna recipe with a meaty, made-from-scratch tomato sauce and a deliciously cheesy filling.
+               A more traditional homemade lasagna filling would be made with ricotta but my mom's recipe calls for a blend of small-curd cottage cheese
+               and Parmesan. I have found none better anywhere. Serve with a leafy green salad and crusty garlic bread.
+            </li>
+         </ul>
+         <p>~ 2h to prepare</p>
+         <a href="recipes/parmigiana.html">Parmigiana</a> 
+         <ul>
+            <li>Eggplant parmigiana or eggplant Parmesan is one of the most popular and iconic vegetarian Italian dishes and this recipe is straight from Italy. Use ripe eggplant without seeds and salt them for 1 hour to remove the bitterness.</li>
+         </ul>
+      </section>
+   </body>
 </html>
