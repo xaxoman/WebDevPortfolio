@@ -3,21 +3,27 @@ body {
 
     margin: 0;
     font-family: sans-serif;
+    
+}
+
+.general-container {
+
+    margin: 0 auto;
+    max-width: 90rem;
 }
 
 /* navbar */
 
- header {
+ nav {
     
-    background-color: #1F2937;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
+    margin-bottom: 5rem;
     
 }
 
- header li {
+ nav li {
 
     list-style: none;
     display: inline-block;
@@ -25,7 +31,7 @@ body {
 
 }
 
-header li a {
+nav li a {
 
     text-decoration: none;
     font-size: 1.125rem;
@@ -40,19 +46,54 @@ header li a {
         
 }
 
+/*navbar end*/
+
+/*header*/
+
+header {
+
+    background-color: #1F2937;
+    height: 40rem;
+}
 
 
-.hero-section p {
+#hero-button {
+
+    color: #F9FAF8;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #3882F6;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 9%;
+}
+
+header p {
 
  color: #E5E7EB;
  font-size: 1.125rem;
 }
 
 
-.hero-section h1 {
+ header h1 {
 
     font-size: 3rem;
     font-weight: bolder;
     color: #F9FAF8;
+    
 }
+
+header img {
+
+    float: right;
+    max-width: 100%;
+    width: 40rem;
+    height: auto;
+    
+}
+
+/* header end */
+
 
