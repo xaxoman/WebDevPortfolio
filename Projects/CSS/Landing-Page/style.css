@@ -96,4 +96,79 @@ header img {
 
 /* header end */
 
+/* projects section */
+
+#projects {
+
+    display: flex;
+    gap: 5rem;
+    
+}
+
+.information img {
+    
+    max-width: 100%;
+    width: 30rem;
+    height: auto;
+    border: 0.5rem solid blue;
+}
+
+.information h2 {
+
+    font-size: 	2.25rem;
+    color: #1F2937;
+    text-align: center;
+    
+}
+
+.information p {
+
+    font-size: 1.125rem;
+}
+
+/* end projects*/
+
+/*Quote section*/
+
+.quote {
+
+    background-color: #E5E7EB;
+
+}
+
+.quote p {
+
+    font-size: 2.25rem;
+    font-weight:100;
+    color: #1F2937;
+    font-style: italic;
+    text-align: justify;
+    padding: 13rem;
+
+}
+
+.quote span {
+
+    font-weight: bold;
+    font-size: 1.4rem;
+    display: block;
+    margin-top: 1rem;
+}
+
+/* END */
+
+/* Newsletter */
+
+.newslet {
+
+
+}
+
+/* END newsletter*/
+
+/**/
+
+
+
+
 
