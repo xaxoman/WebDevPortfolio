@@ -67,7 +67,7 @@ header {
     padding-right: 2rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    border-radius: 9%;
+    border-radius: 0.5rem;
 }
 
 header p {
@@ -159,14 +159,59 @@ header img {
 
 /* Newsletter */
 
-.newslet {
+.newslet  {
 
+   color: #E5E7EB;
+   height: 20rem;
+   display: flex;
+   align-items: center;
+}
 
+.newslet p {
+
+    margin-top: -1rem;
+    
+}
+
+.newslet div {
+
+ background-color:#3882F6;  
+ padding: 1rem;
+ padding-left: 15rem;
+ padding-right: 15rem;
+ border-radius: 1rem;
+ 
+
+}
+
+.newslet a {
+
+    color: #F9FAF8;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #3882F6;
+    border: 0.15rem solid #F9FAF8;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    
+    
+    
 }
 
 /* END newsletter*/
 
-/**/
+/* Footer */
+
+.footer {
+ 
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+    padding: 2rem;
+}
 
 
 
