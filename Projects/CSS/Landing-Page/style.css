@@ -1,0 +1,58 @@
+
+body {
+
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* navbar */
+
+ header {
+    
+    background-color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
+
+ header li {
+
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;
+
+}
+
+header li a {
+
+    text-decoration: none;
+    font-size: 1.125rem;
+    color: #E5E7EB;
+}
+
+#logo {
+    margin-right: auto;
+    margin-left: 1rem;
+    font-size: 	1.5rem;
+    color: #F9FAF8;
+        
+}
+
+
+
+.hero-section p {
+
+ color: #E5E7EB;
+ font-size: 1.125rem;
+}
+
+
+.hero-section h1 {
+
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
