@@ -3,6 +3,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+
 table {
 
     margin-left: auto;
@@ -15,6 +16,17 @@ h1 {
     text-align: center;
 }
 
+th {
+
+    color: #F9FAF8;
+    background-color: #4e678b;
+}
+
+td {
+
+    background-color: #E5E7EB;
+}
+
 tr,td,th {
 
     padding: 0.5rem;
@@ -24,6 +36,7 @@ td a {
 
     text-decoration: none;
     color: rgb(29, 29, 240);
+    font-weight: bold;
 }
 
 a:hover {
