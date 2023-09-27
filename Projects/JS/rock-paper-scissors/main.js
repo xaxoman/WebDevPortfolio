@@ -11,7 +11,10 @@
             let scissors = 2;
 
             // User input
-            let user = prompt("Rock paper or scissors, choose wisely? (write lowercase)");
+            let user = prompt("Rock paper or scissors, choose wisely?");
+                user = user.toLowerCase();
+            // Makes the user input case sensitive by making it lowecase 
+            
             // generates a random number that is equal to the first three variables
             let random = Math.floor(Math.random() * 3);
 
@@ -40,11 +43,11 @@
             //Calculates the score for scissors
             if (user == "scissors" && random == paper) {
                 punteggioComputer = punteggioComputer+1
-                alert(`You: Rock \nComputer: Paper \n\nPaper beats rock, i know it sounds strange.. how can a paper beat a rock?\n\nCOMPUTER: ${punteggioComputer} YOU: ${punteggioUser}`)
+                alert(`You: Scissors \nComputer: Paper \n\nPaper beats rock, i know it sounds strange.. how can a paper beat a rock?\n\nCOMPUTER: ${punteggioComputer} YOU: ${punteggioUser}`)
             }
             else if (user == "scissors" && random == rock) {
                 punteggioUser = punteggioUser+1
-                alert(`You: Rock \nComputer: Scissors \n\nRock beats scissors \n\nCOMPUTER: ${punteggioComputer} YOU: ${punteggioUser}`)
+                alert(`You: Scissors \nComputer: rock \n\nRock beats scissors \n\nCOMPUTER: ${punteggioComputer} YOU: ${punteggioUser}`)
             }
             
 
@@ -70,7 +73,7 @@
         // Declares the winner
         if(punteggioComputer == 3) {
 
-            alert("A COMPUTER BEATED YOU, LOL");
+            alert("A COMPUTER BEAT YOU, LOL");
         }
         if(punteggioUser == 3) {
 
