@@ -2,7 +2,7 @@
  let punteggioUser = 0;
  
   
-  while(punteggioUser || punteggioComputer!=3) { // the for loop ends when the score is equal to 3 
+  while(punteggioUser!=3 || punteggioComputer!=3) { // the for loop ends when the score is equal to 3 
 
         function getComputerChoice(){
 
