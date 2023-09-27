@@ -24,6 +24,28 @@
                 punteggioUser = punteggioUser+1
                 alert(`You: Rock \nComputer: Scissors \n\nRock beats scissors \n\nCOMPUTER: ${punteggioComputer} YOU: ${punteggioUser}`)
             }
+
+
+            //Calculates the score for paper
+            if (user == "paper" && random == rock) {
+                punteggioUser = punteggioUser+1
+                alert(`You: Paper \nComputer: Rock \n\nPaper beats rock, i know it sounds strange.. how can a paper beat a rock?\n\nCOMPUTER: ${punteggioComputer} YOU: ${punteggioUser}`)
+            }
+            else if (user == "paper" && random == scissors) {
+                punteggioComputer = punteggioComputer+1
+                alert(`You: Paper \nComputer: Scissors \n\nScissors beats Paper \n\nCOMPUTER: ${punteggioComputer} YOU: ${punteggioUser}`)
+            }
+
+
+            //Calculates the score for scissors
+            if (user == "scissors" && random == paper) {
+                punteggioComputer = punteggioComputer+1
+                alert(`You: Rock \nComputer: Paper \n\nPaper beats rock, i know it sounds strange.. how can a paper beat a rock?\n\nCOMPUTER: ${punteggioComputer} YOU: ${punteggioUser}`)
+            }
+            else if (user == "scissors" && random == rock) {
+                punteggioUser = punteggioUser+1
+                alert(`You: Rock \nComputer: Scissors \n\nRock beats scissors \n\nCOMPUTER: ${punteggioComputer} YOU: ${punteggioUser}`)
+            }
             
 
             // controlls if both choices match
