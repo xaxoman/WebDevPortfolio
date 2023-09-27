@@ -74,10 +74,18 @@
         if(punteggioComputer == 3) {
 
             alert("A COMPUTER BEAT YOU, LOL");
+
+            break;
+
+            
         }
         if(punteggioUser == 3) {
 
             alert("YOU WON, YOU'RE A TOP G");
+
+            break;
+
+            
         }
     }
 
