@@ -1,65 +1,48 @@
+# My Web Development Portfolio
 
-# My personal Web Devolopment portfolio
+![My Skills](https://skillicons.dev/icons?i=html,css,js,react,figma&theme=light)
 
-this repository is where i will host all of my web Devolopment related projects.
+Welcome to my web development portfolio! This repository contains a collection of projects I've worked on, showcasing my skills and experience as a web developer.
+
+## Projects
+
+### Project 1: [Project Name]
+
+Description: Brief description of the project, its purpose, and the technologies used.
+
+Demo: [Link to live demo (if applicable)]
+
+Repository: [Link to GitHub repository]
+
+### Project 2: [Project Name]
+
+Description: Brief description of the project, its purpose, and the technologies used.
+
+Demo: [Link to live demo (if applicable)]
+
+Repository: [Link to GitHub repository]
 
 
-## 👨‍💻  About Me
-Hi!, my name is Dennis and i'm a computer science student interested in a lot of subjects of the IT world, this repo is going to be about WebDev, but in my website i discuss and write about many other topics like AI, CyberSecurity, software devolopment and the latest tech trends.
 
-## Sections
-- the following sections are divided based on the programming languages and technologies i'm learning.
-just click one of them to see related projects i've made
+## Skills
+
+- HTML
+- CSS
+- JavaScript
+- React
 
 
-<details>
-  <summary>HTML</summary>
-  
-  ## HTML projects
-  | PROJECT |WHAT I LEARNED|
-  | ------ | ------ |
-  |  |  |
-  |  |  |
-  |  |  |
-  |  |  |
-</details>
-<details>
-  <summary>CSS</summary>
-  
-  ## CSS projects
-  | PROJECT |WHAT I LEARNED|
-  | ------ | ------ |
-  | [Recipe]() |  |
-  |  |  |
-  |  |  |
-  |  |  |
-</details>
-<details>
-  <summary>JavaScript</summary>
-  
-  ## JS projects
-  | PROJECT |WHAT I LEARNED|
-  | ------ | ------ |
-  |  |  |
-  |  |  |
-  |  |  |
-  |  |  |
-</details>
-<details>
-  <summary>React</summary>
-  
-  ## React projects
-  | PROJECT |WHAT I LEARNED|
-  | ------ | ------ |
-  |  |  |
-  |  |  |
-  |  |  |
-  |  |  |
-</details>
+## About Me
 
-## 📧 Contact me
+Denis Xhafaj, is a versatile developer based in Italy, passionate about leveraging technology and his unique experiences to make a meaningful difference in people's lives.
 
-Buisness email: general.nexg0@aleeas.com 
+## 📧 Contact Me
 
-Website: [cybermonkeys.com](cybermonkeys.com)
+- Email: [Your email address]
+- LinkedIn: [Link to your LinkedIn profile]
+- Personal Website: [Link to your personal website]
+
+## License
+
+This project is licensed under the [License Name] - see the [LICENSE](LICENSE) file for details.
 
